@@ -19,6 +19,8 @@ main {
   flex-grow: 1;
   align-self: center;
   width: 80vw;
-  /* background-color: firebrick; */
+  position: relative;
   border: 2px solid black;
+  overflow: hidden;
+  perspective: 200px;
 }
