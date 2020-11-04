@@ -1,0 +1,52 @@
+.about {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  min-width: 1024px;
+  height: 80vh;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.description {
+  flex-basis: 28%;
+  /* background-color: rgb(114, 43, 43); */
+  padding: 5%;
+}
+.workers {
+  flex-basis: 44%;
+  display: flex;
+}
+.workers_first {
+  flex-basis: 50%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.workers_secound {
+  flex-basis: 50%;
+  padding: 10px;
+}
+.portrait {
+  width: 200px;
+  height: 250px;
+  background-color: #eee;
+  margin: auto;
+}
+.workers_about {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 20px;
+}
+.gallery {
+  flex-basis: 28%;
+  border-left: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.gallery_picture {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+}

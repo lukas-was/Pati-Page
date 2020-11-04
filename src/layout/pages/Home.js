@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-import "../../style/Page.css";
+import "../../style/Home.css";
 
 const animationTime = 7000;
 
-class Page extends Component {
+class Home extends Component {
   valueZ = 0;
 
   getPosition = (e) => {
@@ -59,33 +59,35 @@ class Page extends Component {
 
   render() {
     return (
-      <div className="image_container">
-        <div className="image"></div>
-        <div className="image"></div>
-        <div className="imageS"></div>
-        <div className="imageS"></div>
-        <div className="image"></div>
-        <div className="image"></div>
-        <div className="image"></div>
-        <div className="imageS"></div>
-        <div className="image"></div>
-        <div className="imageS"></div>
-        <div className="imageS"></div>
-        <div className="image"></div>
-        <div className="image"></div>
-        <div className="image"></div>
-        <div className="imageS"></div>
-        <div className="imageS"></div>
-        <div className="imageS"></div>
-        <div className="image"></div>
-        <div className="image"></div>
-        <div className="imageS"></div>
-        <div className="imageS"></div>
-      </div>
+      <section className="home">
+        <div className="image_container">
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="imageS"></div>
+          <div className="imageS"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="imageS"></div>
+          <div className="image"></div>
+          <div className="imageS"></div>
+          <div className="imageS"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="imageS"></div>
+          <div className="imageS"></div>
+          <div className="imageS"></div>
+          <div className="image"></div>
+          <div className="image"></div>
+          <div className="imageS"></div>
+          <div className="imageS"></div>
+        </div>
+      </section>
     );
   }
 }
-export default Page;
+export default Home;
 
 // import React, { Component } from "react";
 // import "../../style/Page.css";
