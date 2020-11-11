@@ -7,6 +7,7 @@ import Header from "./layout/Header";
 import Home from "./layout/pages/Home";
 import About from "./layout/pages/About";
 import Navigation from "./layout/Navigation";
+import Projects from "./layout/pages/Projects";
 
 class App extends Component {
   render() {
@@ -22,6 +23,9 @@ class App extends Component {
             </Route>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/projects">
+              <Projects />
             </Route>
           </main>
           <nav>

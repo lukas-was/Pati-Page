@@ -8,7 +8,6 @@
   flex-direction: column;
   min-height: 100vh;
   min-width: 1024px;
-  /* font-family: sans-serif; */
   font-family: "Poppins", sans-serif;
 }
 header {
@@ -20,10 +19,4 @@ header {
 main {
   flex-grow: 1;
   align-self: center;
-
-  /* width: 80vw; */
-  /* position: relative; */
-  /* border: 2px solid black; */
-  /* overflow: hidden; */
-  /* perspective: 200px; */
 }

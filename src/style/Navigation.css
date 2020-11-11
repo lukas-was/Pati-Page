@@ -7,7 +7,7 @@ ul {
   /* background-color: teal; */
 }
 ul li {
-  flex-basis: 13%;
+  flex-basis: 14%;
   height: 80%;
   /* background-color: tomato; */
 }
@@ -31,5 +31,14 @@ ul li a {
   transition: 0.3s;
 }
 ul li a.active div.dot {
-  box-shadow: 0 0 0 7px white, 0 0 0 8px rgb(54, 54, 54);
+  box-shadow: 0 0 0 7px white, 0 0 0 8px black;
+}
+.media {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* background-color: gold; */
+  height: 100%;
+  text-align: center;
+  line-height: 8vh;
 }

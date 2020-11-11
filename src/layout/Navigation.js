@@ -8,7 +8,7 @@ const list = [
   { name: "o nas", path: "/about", exact: false },
   { name: "projekty", path: "/projects", exact: false },
   { name: "oferta", path: "/offer", exact: false },
-  { name: "co nas wyróżnia", path: "/why-us", exact: false },
+  { name: "dlaczego my", path: "/why-us", exact: false },
   { name: "kontakt", path: "/contact", exact: false },
 ];
 
