@@ -1,17 +1,21 @@
 .projects {
-  width: 100vw;
+  width: 90vw;
   min-width: 1024px;
   height: 80vh;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   display: flex;
-  justify-content: space-evenly;
   overflow: hidden;
   animation: startPage 1 0.2s;
 }
+.stripe {
+  width: 1px;
+  /* height: 100%; */
+  background-color: grey;
+}
 .projects_gallery {
   flex-basis: 25%;
-  /* animation: softmove 4s infinite alternate; */
+  animation: softmove 4s infinite alternate;
 }
 .projects_gallery:hover {
   animation-play-state: paused;
@@ -22,7 +26,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-right: 1px solid black;
   transition: 0.2s;
 }
 @keyframes softmove {

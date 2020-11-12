@@ -26,7 +26,20 @@ const Navigation = () => {
     <ul>
       {menu}
       <li>
-        <div className="media">fb ig</div>
+        <div className="media">
+          <a
+            href="https://www.facebook.com/profile.php?id=100000829035383"
+            target="blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100000829035383"
+            target="blank"
+          >
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </div>
       </li>
     </ul>
   );

@@ -3,16 +3,18 @@ import SmallImage from "../../components/SmallImage";
 
 import "../../style/About.css";
 
-import smallImg1 from "../../images/1.jpg";
-import smallImg2 from "../../images/2.jpg";
-import smallImg3 from "../../images/3.jpg";
-import smallImg4 from "../../images/4.jpg";
+import smallImg1 from "../../images/1.svg";
+import smallImg2 from "../../images/2.svg";
+import smallImg3 from "../../images/3.svg";
+import smallImg4 from "../../images/4.svg";
+import smallImg5 from "../../images/5.svg";
 
 const smallImages = [
   { src: smallImg1, alt: "Partycja 1" },
   { src: smallImg2, alt: "Partycja 2" },
   { src: smallImg3, alt: "Partycja 3" },
   { src: smallImg4, alt: "Partycja 4" },
+  { src: smallImg5, alt: "Partycja 5" },
 ];
 
 class About extends Component {

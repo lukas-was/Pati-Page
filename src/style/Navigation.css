@@ -34,11 +34,17 @@ ul li a.active div.dot {
   box-shadow: 0 0 0 7px white, 0 0 0 8px black;
 }
 .media {
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
   /* background-color: gold; */
-  height: 100%;
-  text-align: center;
-  line-height: 8vh;
+  /* height: 100%; */
+  /* text-align: center; */
+  /* line-height: 8vh; */
+}
+.media a {
+  display: block;
+  font-size: 1.5em;
+  margin: 0 5px;
+  padding: 5px 7px;
+  /* background-color: hotpink; */
 }

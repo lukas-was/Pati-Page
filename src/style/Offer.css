@@ -1,0 +1,54 @@
+.offer {
+  width: 90vw;
+  min-width: 1024px;
+  min-height: 80vh;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  overflow: hidden;
+  animation: startPage 1 0.2s;
+}
+.stripe_offer {
+  width: 1px;
+  background-color: grey;
+}
+.option {
+  position: relative;
+  flex-basis: 25%;
+}
+.option_front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  cursor: pointer;
+  padding-top: 45vh;
+  opacity: 0.9;
+  transition: 0.2s;
+}
+.option_front:hover {
+  background-color: transparent;
+  z-index: 1;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.8);
+}
+.option_front:hover .option_title {
+  /* opacity: 0; */
+  display: none;
+}
+
+.option_title {
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  color: gray;
+}
+.option_container {
+  height: 100%;
+  padding: 20px 50px;
+  text-align: center;
+}
+.option_container h3 {
+  margin-bottom: 20px;
+}
