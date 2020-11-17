@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 566.9 566.9" style="enable-background:new 0 0 566.9 566.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;}
+</style>
+<circle class="st0" cx="283.5" cy="283.5" r="283.5"/>
+<g>
+	<path class="st1" d="M243.4,113.1"/>
+	<rect x="276.6" y="63.7" class="st0" width="12.4" height="66.8"/>
+	<rect x="271.7" y="130.4" class="st0" width="21.6" height="12.4"/>
+	<rect x="261.7" y="142.8" class="st0" width="42" height="15.2"/>
+	<polygon class="st0" points="243.4,113.1 255.4,120.9 251.5,158 238.8,158 	"/>
+	<rect x="201.3" y="158" class="st0" width="164.3" height="183.4"/>
+	<polygon class="st0" points="324.7,113.1 312.6,120.9 316.5,158 329.2,158 	"/>
+	<polyline class="st0" points="201.3,335 196.4,335 196.4,347 201.3,350.2 283.5,350.2 	"/>
+	<polyline class="st0" points="365.6,335 370.6,335 370.6,347 365.6,350.2 283.5,350.2 	"/>
+	<polygon class="st0" points="217.9,350.2 202.7,503.3 215.8,503.3 231.4,350.2 	"/>
+	<polygon class="st0" points="350.4,350.2 365.6,503.3 352.5,503.3 337,350.2 	"/>
+	<line class="st0" x1="224.6" y1="416.2" x2="343.7" y2="416.2"/>
+	<line class="st0" x1="223.1" y1="431.8" x2="345.3" y2="431.8"/>
+	<path class="st0" d="M277.6,471.7"/>
+	<line class="st0" x1="277.6" y1="350.2" x2="277.6" y2="416.2"/>
+	<line class="st0" x1="288.9" y1="350.2" x2="288.9" y2="416.2"/>
+	<polyline class="st0" points="288.9,431.8 288.9,471.7 277.6,471.7 277.6,431.8 	"/>
+</g>
+</svg>

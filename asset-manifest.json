@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Pati-Page/static/css/main.394cbf06.chunk.css",
+    "main.js": "/Pati-Page/static/js/main.e8a431a3.chunk.js",
+    "main.js.map": "/Pati-Page/static/js/main.e8a431a3.chunk.js.map",
+    "runtime-main.js": "/Pati-Page/static/js/runtime-main.40bf337c.js",
+    "runtime-main.js.map": "/Pati-Page/static/js/runtime-main.40bf337c.js.map",
+    "static/js/2.8e5fc6a8.chunk.js": "/Pati-Page/static/js/2.8e5fc6a8.chunk.js",
+    "static/js/2.8e5fc6a8.chunk.js.map": "/Pati-Page/static/js/2.8e5fc6a8.chunk.js.map",
+    "index.html": "/Pati-Page/index.html",
+    "static/css/main.394cbf06.chunk.css.map": "/Pati-Page/static/css/main.394cbf06.chunk.css.map",
+    "static/js/2.8e5fc6a8.chunk.js.LICENSE.txt": "/Pati-Page/static/js/2.8e5fc6a8.chunk.js.LICENSE.txt",
+    "static/media/1.d064432d.jpg": "/Pati-Page/static/media/1.d064432d.jpg",
+    "static/media/1.d442f951.svg": "/Pati-Page/static/media/1.d442f951.svg",
+    "static/media/2.85e266d4.svg": "/Pati-Page/static/media/2.85e266d4.svg",
+    "static/media/3.e7728a46.svg": "/Pati-Page/static/media/3.e7728a46.svg",
+    "static/media/4.0d997cc6.svg": "/Pati-Page/static/media/4.0d997cc6.svg",
+    "static/media/5.e03ef4ee.svg": "/Pati-Page/static/media/5.e03ef4ee.svg",
+    "static/media/logo.19dc92da.svg": "/Pati-Page/static/media/logo.19dc92da.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40bf337c.js",
+    "static/js/2.8e5fc6a8.chunk.js",
+    "static/css/main.394cbf06.chunk.css",
+    "static/js/main.e8a431a3.chunk.js"
+  ]
+}
