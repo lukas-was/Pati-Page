@@ -31,13 +31,13 @@ const Navigation = () => {
             href="https://www.facebook.com/profile.php?id=100000829035383"
             target="blank"
           >
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </a>
           <a
             href="https://www.facebook.com/profile.php?id=100000829035383"
             target="blank"
           >
-            <i class="fab fa-facebook-square"></i>
+            <i className="fab fa-facebook-square"></i>
           </a>
         </div>
       </li>

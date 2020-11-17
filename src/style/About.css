@@ -1,9 +1,9 @@
 .about {
   position: relative;
   display: flex;
-  width: 90vw;
-  min-width: 1024px;
-  height: 80vh;
+  width: 100%;
+  /* height: 80vh; */
+  height: 100%;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   overflow: hidden;
@@ -23,7 +23,7 @@
   left: 0;
   width: 28%;
   height: 100%;
-  padding: 50px 80px;
+  padding: 40px 50px;
   border-right: 1px solid black;
   background-color: white;
   transition: 0.2s;
@@ -32,7 +32,6 @@
 
 .description:hover {
   width: 42%;
-  /* box-shadow: 0px 0px 50px 30px rgba(0, 0, 0, 0.5); */
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.8);
 }
 
@@ -48,7 +47,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  /* padding: 10px; */
   font-size: 0.8em;
 }
 .first {
@@ -61,9 +60,7 @@
 }
 .first:hover {
   width: 36%;
-  /* box-shadow: 0px 0px 50px 30px rgba(0, 0, 0, 0.5); */
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.8);
-
   font-size: 1em;
   z-index: 3;
 }
@@ -77,9 +74,7 @@
 .secound:hover {
   z-index: 2;
   width: 36%;
-  /* box-shadow: 0px 0px 50px 30px rgba(0, 0, 0, 0.5); */
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.8);
-
   font-size: 1em;
 }
 @keyframes appear {
@@ -102,7 +97,7 @@
   width: 200px;
   min-height: 250px;
   background-color: #eee;
-  margin: 0 auto 10px;
+  margin: 20px auto 40px;
 }
 
 .workers_about {
@@ -110,8 +105,9 @@
   overflow: hidden;
 }
 .workers_about > p {
-  padding: 10px 30px;
+  padding: 0px 30px;
   text-align: center;
+  /* background-color: hotpink; */
 }
 .gallery {
   position: absolute;
@@ -119,6 +115,7 @@
   right: 0;
   width: 28%;
   height: 100%;
+  min-height: 400px;
   background-color: white;
   border-left: 1px solid black;
   z-index: 1;
@@ -130,18 +127,14 @@
 }
 .gallery:hover {
   width: 42%;
-  /* box-shadow: 0px 0px 50px 30px rgba(0, 0, 0, 0.5); */
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.8);
-
-  /* z-index: 2; */
 }
 .gallery_icons {
   position: relative;
-  width: 12vh;
-  height: 12vh;
-  /* border: 1px solid grey; */
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  background-color: rgb(204, 228, 220);
+  background-color: #eee;
   cursor: pointer;
   overflow: hidden;
 }
@@ -154,12 +147,3 @@
   min-width: 100%;
   min-height: 100%;
 }
-
-/* .popup {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.788);
-} */

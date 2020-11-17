@@ -1,32 +1,50 @@
 .projects {
-  width: 90vw;
-  min-width: 1024px;
-  height: 80vh;
+  position: relative;
+  width: 100%;
+  height: 100%;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  display: flex;
+  /* display: flex; */
   overflow: hidden;
   animation: startPage 1 0.2s;
 }
-.stripe {
-  width: 1px;
-  /* height: 100%; */
-  background-color: grey;
-}
 .projects_gallery {
-  flex-basis: 25%;
-  animation: softmove 4s infinite alternate;
+  /* nowe pozycja na absolut */
+  position: absolute;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  /* pierwszy sposob flexem, nie dziala ustawnienie wysokosci rodzica na 100% 
+  flex-basis: 25%; 
+  animation: softmove 4s infinite alternate; */
+}
+.projects_gallery:nth-of-type(1) {
+  left: 0%;
+  border-right: 1px solid gray;
+}
+.projects_gallery:nth-of-type(2) {
+  left: 25%;
+  border-right: 1px solid gray;
+}
+.projects_gallery:nth-of-type(3) {
+  left: 50%;
+  border-right: 1px solid gray;
+}
+.projects_gallery:nth-of-type(4) {
+  left: 75%;
 }
 .projects_gallery:hover {
-  animation-play-state: paused;
+  /* animation-play-state: paused; */
   z-index: 1;
 }
 .projects_container {
-  padding: 1vh 0 5vh 0;
-  display: flex;
+  /* padding: 1vh 0 5vh 0; */
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  padding-top: 20px;
   transition: 0.2s;
+  border-bottom: 1px solid grey;
 }
 @keyframes softmove {
   100% {
@@ -37,9 +55,14 @@
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.8);
 }
 .project {
-  width: 37vh;
-  height: 37vh;
-  margin: 1vh 0;
+  /* width: 37vh; */
+  /* height: 37vh; */
+  /* margin: 1vh 0; */
+  width: 250px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
   background-color: #ccc;
   cursor: pointer;
   transition: 0.2s;

@@ -43,10 +43,7 @@ class About extends Component {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
               accusantium voluptatum voluptatem aperiam quidem repellendus,
-              veniam est magni. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Vitae accusantium voluptatum voluptatem aperiam
-              quidem repellendus, veniam est magni. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit.
+              veniam est magni.
             </p>
           </div>
         </section>

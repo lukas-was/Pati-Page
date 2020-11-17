@@ -15,7 +15,6 @@ class Projects extends Component {
   };
 
   render() {
-    console.log("render");
     return (
       <section className="projects">
         <section className="projects_gallery">
@@ -30,7 +29,6 @@ class Projects extends Component {
             <div className="project"></div>
           </div>
         </section>
-        <div className="stripe"></div>
         <section className="projects_gallery">
           <div
             onWheel={(e) => this.moveGallery(e, "secound")}
@@ -43,7 +41,6 @@ class Projects extends Component {
             <div className="project"></div>
           </div>
         </section>
-        <div className="stripe"></div>
         <section className="projects_gallery">
           <div
             onWheel={(e) => this.moveGallery(e, "third")}
@@ -56,7 +53,6 @@ class Projects extends Component {
             <div className="project"></div>
           </div>
         </section>
-        <div className="stripe"></div>
         <section className="projects_gallery">
           <div
             onWheel={(e) => this.moveGallery(e, "fourth")}

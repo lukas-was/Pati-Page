@@ -9,6 +9,7 @@ import About from "./layout/pages/About";
 import Navigation from "./layout/Navigation";
 import Projects from "./layout/pages/Projects";
 import Offer from "./layout/pages/Offer";
+import Contact from "./layout/pages/Contact";
 
 class App extends Component {
   render() {
@@ -30,6 +31,9 @@ class App extends Component {
             </Route>
             <Route path="/offer">
               <Offer />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
           </main>
           <nav>
