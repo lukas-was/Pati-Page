@@ -105,7 +105,7 @@
 @keyframes falling {
   0% {
     transform: translateZ(-500px);
-    opacity: 0%;
+    opacity: 0;
   }
   10% {
     transform: translateZ(-500px);
@@ -116,7 +116,7 @@
   }
   100% {
     transform: translateZ(0);
-    opacity: 100%;
+    opacity: 100;
   }
 }
 .imageS img,

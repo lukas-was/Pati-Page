@@ -37,7 +37,7 @@
   margin: 0 5px;
   color: grey;
   transition: 0.2s;
-  animation: moveIcons 0.5s 1;
+  animation: moveIcons 0.5s 0.2s 1;
 }
 .social_media a:hover {
   color: black;
