@@ -14,7 +14,7 @@ import Contact from "./layout/pages/Contact";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="wrapper">
           <header>
             <Header />
